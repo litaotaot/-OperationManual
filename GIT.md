@@ -22,3 +22,6 @@
 
 #### 关联后推送远程仓库
     git push -u origin master
+
+#### 强制合并分支
+    git pull origin master --allow-unrelated-histories
