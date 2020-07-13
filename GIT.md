@@ -82,3 +82,10 @@
     git tag -d v0.1                                                                 //删除标签
     git push origin <tagname>                                               //推送某个标签到远程
     git push origin --tags                                                       //推送所有尚未推送的本地标签
+
+#### GIT更换链接方式
+    git remote -v                //查看克隆地址
+    git remote rm origin         //删除现有地址
+    git remote add origin XXXX   //添加地址
+    git push -u origin master    //提交
+    
