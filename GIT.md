@@ -85,7 +85,11 @@
 
 #### GIT更换链接方式
     git remote -v                //查看克隆地址
+    git remote -r                //查看所有分支
+    git remote -a                //查看远程分支
     git remote rm origin         //删除现有地址
     git remote add origin XXXX   //添加地址
+    git pull origin master --allow-unrelated-histories  //允许没有相关历史联系下拉
+    git merge master --allow-unrelated-histories  //允许没有相关历史联系合并
     git push -u origin master    //提交
     
