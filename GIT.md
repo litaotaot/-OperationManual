@@ -93,3 +93,5 @@
     git merge master --allow-unrelated-histories  //允许没有相关历史联系合并
     git push -u origin master    //提交
     
+#### GIT分支操作
+    git push origin --delete [branch_name]                  //删除远程分支
