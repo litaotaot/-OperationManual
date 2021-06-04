@@ -95,3 +95,7 @@
     
 #### GIT分支操作
     git push origin --delete [branch_name]                  //删除远程分支
+
+#### GIT分支合并操作
+    git cherry-pick commit_id1..commit_id3    // 注意中间的两个点, 表示把两个commit区间的所有commit多复制过去, 表示不包含第一个commitid, 相当于(commit_id1, commit_id3].
+    git cherry-pick commit_id1^..commit_id3   // 注意中间多了一个^, 表示包含第一个commitid,相当于[commit_id1, commit_id3].
