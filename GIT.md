@@ -50,6 +50,7 @@
 
 #### 分支
     git checkout -b dev                                   //创建并切换分支
+    git checkout commitid -d dev          //根据commitid创建新分支
     #相当于git branch dev 和git checkout dev
     git branch                                                //查看当前分支，当前分支前有个*号
     git branch <name>                                   //创建分支
